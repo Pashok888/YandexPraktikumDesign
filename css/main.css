@@ -52,7 +52,7 @@ nav {
 
 .screen {
 	position: absolute;
-	transition: ease-in-out 0s;
+	transition: ease-out 3s;
 }
 
 .right {
@@ -89,4 +89,21 @@ nav {
 
 .hide {
 	opacity: 0;
+}
+
+/* АНИМАЦИИ ПЕРЕХОДОВ */
+
+.animation_a6 {
+	transition: transform 0.25s cubic-bezier(0,0,0.58,1);
+}
+
+div {
+	animation-name: animation_a6
+}
+.animation_a7 {
+	transition: transform 0.35s cubic-bezier(0.42,0,0.58,1);
+}
+
+div {
+	animation-name: animation_a7
 }
